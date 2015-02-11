@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Miette 101</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="../target/classes/META-INF/resources/webjars/miette/0.1-SNAPSHOT/css/miette.css" rel="stylesheet">
+    <link href="css/miette.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <h1 class="col-xs-12">Miette css library</h1>
+
+        <div class="col-xs-12">
+          <h2 class="page-header">API & URL</h2>
+          <p>Embedded api documentation in text.</p>
+          <div class="bs-example">
+            <p>
+            Lorem ipsum dolor sit amet, 
+            <span class="api post"><span>/api/images/</span></span> consectetur adipiscing elit. 
+            Donec a diam <span class="api get"><span>/api/image/:name</span></span> 
+            lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec 
+            <span class="api get"><span>/api/screenshots/:revision/:page</span></span>, <span class="api delete"><span>/api/screenshots/:revision/:page</span></span>
+            consectetur ante hendrerit. Donec 
+            <span class="api put"><span>/api/screenshots/:revision/:page</span></span>
+            et mollis dolor. 
+            <span class="api head"><span>/api/screenshots/:revision/:page</span></span> Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor.
+          </p>
+          </div>
+          <div class="highlight">
+            <pre>Lorem ipsum dolor sit amet, <span class="api post"><span>/api/images/</span></span> consectetur adipiscing elit.</pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
